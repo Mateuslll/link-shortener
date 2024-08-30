@@ -1,0 +1,10 @@
+services:
+  mongodb:
+    image: mongo
+    container_name: dkrcomp-mongo
+    ports:
+      - "27019:27017"  # Mapeia a porta 27019 do host para a porta 27017 do contêiner
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=admin
+      - MONGO_INITDB_ROOT_PASSWORD=123
+    restart: always
