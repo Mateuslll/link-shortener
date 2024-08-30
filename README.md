@@ -17,7 +17,6 @@ Esta API é parte de um sistema de encurtamento de URLs simples, permitindo a cr
 - Princípios SOLID
 - RESTful API
 - Utilização de DTOs (Data Transfer Objects)
-- Validação de entrada com `@Valid`
 - Manipulação de exceções personalizadas
 
 ## Como Executar o Projeto
